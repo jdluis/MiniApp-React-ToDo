@@ -1,0 +1,12 @@
+.container-list {
+    background-color: antiquewhite;
+    opacity: .6;
+    border: 1px solid rgba(25, 20, 10, 1);
+    border-radius: 10px;
+    margin-top: 20px;
+    min-width: 280px;
+}
+
+.container-list ul {
+    padding: 0 20px
+}

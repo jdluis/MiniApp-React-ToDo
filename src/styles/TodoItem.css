@@ -1,0 +1,35 @@
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em auto;
+    gap: 1em;
+}
+
+.check-completed {
+    background-color: green;
+    border: 2px solid green;
+}
+
+.check:hover {
+    background-color: green;
+    border: 1px solid green;
+    transition: all .5s linear;
+}
+
+.deleted:hover {
+    background-color: red;
+
+}
+
+.check, .deleted:hover {
+    cursor: pointer;
+}
+
+.task-text {
+    color: black;
+}
+
+.task-text_completed {
+    text-decoration: line-through;
+}
