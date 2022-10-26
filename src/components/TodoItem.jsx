@@ -10,7 +10,7 @@ function TodoItem(props) {
   return (
     <div>
       {isEdit ? (
-        <TodoEditItem key={props.text} text={props.text} completed={props.completed} setIsEdit={setIsEdit} />
+        <TodoEditItem onEdit={props.onEdit} key={props.text} text={props.text} completed={props.completed} setIsEdit={setIsEdit} />
       ) : (
         <li className="item-container">
           <span
