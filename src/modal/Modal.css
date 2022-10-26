@@ -1,0 +1,12 @@
+.modal-container {
+    background-color: rgba(141, 185, 185, 0.568);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    display: grid;
+    place-items: center;
+}
