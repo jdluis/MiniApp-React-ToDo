@@ -1,0 +1,27 @@
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn {
+    padding: ;
+}
+
+.btn-add {
+
+}
+
+.btn-back {
+
+}
+
+.titleTask {
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

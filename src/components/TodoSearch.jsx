@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "../styles/TodoSearch.css";
 import { TodoContext } from "../TodoContext";
+import searchIcon from "../assets/buscar.png";
 
 function TodoSearch() {
 
@@ -11,12 +12,15 @@ function TodoSearch() {
   };
 
   return (
-        <input
-        className="searchInput"
-        placeholder="Cebolla"
-        value={searchValue}
-        onChange={handleOnSearch}
-        />
+    <div className="search-container">
+      <input
+      className="searchInput"
+      placeholder="Filter by Name"
+      value={searchValue}
+      onChange={handleOnSearch}
+      />
+      <img src={searchIcon} alt="search Icon" /> 
+    </div>
   );
 }
 
