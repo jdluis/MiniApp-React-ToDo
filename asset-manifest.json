@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//MiniApp-React-ToDo/static/css/main.9cc10aab.css",
-    "main.js": "//MiniApp-React-ToDo/static/js/main.1659672a.js",
-    "static/media/mindfulness.svg": "//MiniApp-React-ToDo/static/media/mindfulness.a7daff794b930dafd062.svg",
-    "index.html": "//MiniApp-React-ToDo/index.html",
-    "static/media/confirm.svg": "//MiniApp-React-ToDo/static/media/confirm.a2c65713b5211d5fae13496752240553.svg",
-    "static/media/borrar.svg": "//MiniApp-React-ToDo/static/media/borrar.834e49e73fa7bdc117d1789760d750c2.svg",
-    "main.9cc10aab.css.map": "//MiniApp-React-ToDo/static/css/main.9cc10aab.css.map",
-    "main.1659672a.js.map": "//MiniApp-React-ToDo/static/js/main.1659672a.js.map"
+    "main.css": "/MiniApp-React-ToDo/static/css/main.5c77a71a.css",
+    "main.js": "/MiniApp-React-ToDo/static/js/main.4479879f.js",
+    "static/media/mindfulness.svg": "/MiniApp-React-ToDo/static/media/mindfulness.a7daff794b930dafd062.svg",
+    "index.html": "/MiniApp-React-ToDo/index.html",
+    "static/media/confirm.svg": "/MiniApp-React-ToDo/static/media/confirm.a2c65713b5211d5fae13496752240553.svg",
+    "static/media/borrar.svg": "/MiniApp-React-ToDo/static/media/borrar.834e49e73fa7bdc117d1789760d750c2.svg",
+    "main.5c77a71a.css.map": "/MiniApp-React-ToDo/static/css/main.5c77a71a.css.map",
+    "main.4479879f.js.map": "/MiniApp-React-ToDo/static/js/main.4479879f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cc10aab.css",
-    "static/js/main.1659672a.js"
+    "static/css/main.5c77a71a.css",
+    "static/js/main.4479879f.js"
   ]
 }
