@@ -1,6 +1,5 @@
 import { React, useState } from "react";
-import completed from "../assets/Completed.png";
-import deleted from "../assets/deleted.png";
+import { TodoIcon } from "./TodoIcon";
 import { TodoEditItem } from "./TodoEditItem";
 import "../styles/TodoItem.css";
 
@@ -15,10 +14,8 @@ function TodoItem(props) {
         <li className="item-container">
           <span
             onClick={props.onComplete}
-            className={`check ${props.completed && "check-completed"}`}
           >
-            <img style={{ width: "60px" }} src={completed} alt="check" />
-          </span>
+          {TodoIcon ({type: "check", color: 'white'})}          </span>
 
           <p
             onClick={() => setIsEdit(true)}
@@ -26,8 +23,8 @@ function TodoItem(props) {
           >
             {props.text}
           </p>
-          <span onClick={props.onDeleted} className="deleted">
-            <img style={{ width: "60px" }} src={deleted} alt="deleted" />
+          <span onClick={props.onDeleted}>
+            {TodoIcon ({type: "delete", color: 'black'})}
           </span>
         </li>
       )}

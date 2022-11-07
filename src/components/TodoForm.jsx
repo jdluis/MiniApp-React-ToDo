@@ -24,9 +24,8 @@ function TodoForm (props) {
 
     return (
         <form className='form-container' onSubmit={onSubmit}>
-            <h3>Create Your Task</h3>
-            <label className='titleTask'>{newTodoValue}</label>
-            <textarea placeholder='Make the list for the party' value={newTodoValue} onChange={onChange} cols="30" rows="10"/>
+            <h3 className='titleTask'>Create Your Task</h3>
+            <textarea className='form_textarea' placeholder='Make the list for the party' value={newTodoValue} onChange={onChange}/>
             <div className='btn-container'>
                 <button
                 className='btn btn-back'

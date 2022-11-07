@@ -1,7 +1,9 @@
 import React from "react";
 import "../styles/TodoEditItem.css";
+
+let temp;
+
 function TodoEditItem(item) {
-  let temp;
   const handleChange = (e) => {
     temp = e.target.value;
   };
@@ -11,8 +13,14 @@ function TodoEditItem(item) {
     item.onEdit(temp);
   };
 
+  const handleClickBack = (e) => {
+    item.setIsEdit(false);
+  };
+
   return (
     <li className="item-container">
+      <button onClick={handleClickBack}>Back</button>
+
       <input
         onChange={handleChange}
         type="text"

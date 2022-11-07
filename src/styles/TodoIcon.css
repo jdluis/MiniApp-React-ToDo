@@ -1,0 +1,31 @@
+.Icon-container {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+}
+
+.Icon-container--check {
+    position: relative;
+    
+}
+
+.Icon-container--delete {
+    position: relative;
+}
+
+.Icon-svg {
+    width: 24px;
+    height: 24px;
+    transition: fill .15s;
+}
+
+.Icon-container:hover .Icon-svg--check {
+    fill: #00fd08c2;
+}
+
+.Icon-container:hover .Icon-svg--delete {
+    fill: rgba(255, 0, 0, 0.774);
+}

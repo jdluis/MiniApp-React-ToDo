@@ -17,15 +17,6 @@
     transition: all .5s linear;
 }
 
-.deleted:hover {
-    background-color: red;
-
-}
-
-.check, .deleted:hover {
-    cursor: pointer;
-}
-
 .task-text {
     color: black;
 }

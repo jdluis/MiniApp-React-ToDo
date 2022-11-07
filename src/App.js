@@ -8,6 +8,7 @@ import { TodoProvider } from "./TodoContext";
 import { TodoContext } from "./TodoContext";
 import { Modal } from "./modal/Modal";
 import { TodoForm } from "./components/TodoForm";
+import { MyLoader } from "./components/MyLoader";
 import "./styles/Layaout.css";
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
             }) => (
               <TodoList>
                 {error && <p>Ups somethin is wrong...</p>}
-                {loading && <p>Loading Data...</p>}
+                {loading && <MyLoader />}
                 {!loading && !searchedTodos.length && (
                   <p>Create your firts TODO</p>
                 )}

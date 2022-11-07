@@ -4,24 +4,42 @@
     justify-content: space-evenly;
 }
 
-.btn {
-    padding: ;
-}
-
-.btn-add {
-
-}
-
-.btn-back {
-
+.form_textarea {
+    background-color: rgb(188, 188, 218);
+    border: 1px solid black;
+    max-width: 400px;
+    min-width: 250px;
+    margin: auto;
+    min-height: 250px;
+    color: #8a2be2;
+    font-size: .35em;
 }
 
 .titleTask {
-
+    margin: 0;
+    padding: 0;
+    font-size: .5em;
+    text-align: left;
+    padding-left: 12px;
 }
 
 .form-container {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 0.2em;
+    background-color: rgba(109, 92, 92, 0.562);
+    width: 40%;
+    padding: 20px 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn-add:hover {
+    background-color: rgb(0, 255, 13);
+    transition: .1s;
+}
+
+.btn-back:hover {
+    background-color: rgb(255, 0, 0);
+    transition: .1s;
 }
